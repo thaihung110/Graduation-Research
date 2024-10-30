@@ -64,11 +64,17 @@ containerLifecycleHooks: {}
 # Used for mount paths
 airflowHome: /opt/airflow
 
+# # Default airflow repository -- overridden by all the specific images below
+# defaultAirflowRepository: apache/airflow
+
+# # Default airflow tag to deploy
+# defaultAirflowTag: "2.9.3"
+
 # Default airflow repository -- overridden by all the specific images below
-defaultAirflowRepository: apache/airflow
+defaultAirflowRepository: my-airflow
 
 # Default airflow tag to deploy
-defaultAirflowTag: "2.9.3"
+defaultAirflowTag: "1.0.0"
 
 # Default airflow digest. If specified, it takes precedence over tag
 defaultAirflowDigest: ~
