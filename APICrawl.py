@@ -46,7 +46,7 @@ if response.status_code == 200:
 
         # Write location data (assuming one location is returned)
         city_name = location_data.get('cityName', '')
-        country_name = location_data.get('countryName', '')
+        country_name = location_data.get('countryName', '')mmmmmmmmmmm
         country_code = location_data.get('countryCode', '')
         iata = location_data.get('iata', '')
         hotels_count = location_data.get('hotelsCount', 0)
