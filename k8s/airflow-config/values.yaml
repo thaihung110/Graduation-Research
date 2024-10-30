@@ -2592,12 +2592,12 @@ dags:
     ## optional subpath for dag volume mount
     subPath: ~
   gitSync:
-    enabled: false
+    enabled: true
 
     # git repo clone url
     # ssh example: git@github.com:apache/airflow.git
     # https example: https://github.com/apache/airflow.git
-    repo: https://github.com/apache/airflow.git
+    repo: https://github.com/thaihung110/Graduation-Research.git
     branch: anmd
     rev: HEAD
     # The git revision (branch, tag, or hash) to check out, v4 only
@@ -2658,10 +2658,10 @@ dags:
     # low values cause more traffic to the remote git repository
     # Go-style duration string (e.g. "100ms" or "0.1s" = 100ms).
     # For backwards compatibility, wait will be used if it is specified.
-    period: 5s
-    wait: ~
+    # period: 5s
+    wait: 5
     # add variables from secret into gitSync containers, such proxy-config
-    envFrom: ~
+    # envFrom: ~
     # envFrom: |
     #   - secretRef:
     #       name: 'proxy-config'
