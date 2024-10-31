@@ -1,7 +1,6 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.sensors.time_delta import TimeDeltaSensor
 import time
 
 default_args = {
