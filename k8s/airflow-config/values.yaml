@@ -64,17 +64,11 @@ containerLifecycleHooks: {}
 # Used for mount paths
 airflowHome: /opt/airflow
 
-# # Default airflow repository -- overridden by all the specific images below
-# defaultAirflowRepository: apache/airflow
-
-# # Default airflow tag to deploy
-# defaultAirflowTag: "2.9.3"
-
 # Default airflow repository -- overridden by all the specific images below
-defaultAirflowRepository: my-airflow
+defaultAirflowRepository: apache/airflow
 
 # Default airflow tag to deploy
-defaultAirflowTag: "1.0.0"
+defaultAirflowTag: "2.9.3"
 
 # Default airflow digest. If specified, it takes precedence over tag
 defaultAirflowDigest: ~
@@ -503,7 +497,7 @@ kerberos:
 # Airflow Worker Config
 workers:
   # Number of airflow celery workers in StatefulSet
-  replicas: 5
+  replicas: 1
   # Max number of old replicasets to retain
   revisionHistoryLimit: ~
 
