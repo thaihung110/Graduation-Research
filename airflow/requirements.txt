@@ -1,0 +1,2 @@
+pyspark==3.5.3
+apache-airflow-providers-apache-druid==3.12.0
