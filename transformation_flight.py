@@ -1,3 +1,6 @@
+import os
+import shutil
+
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import (
     coalesce,
@@ -23,6 +26,7 @@ from pyspark.sql.window import Window
 
 
 def transformation_flight():
+
     # Initialize Spark session
     spark = SparkSession.builder.appName("TransformData").getOrCreate()
 
@@ -339,37 +343,49 @@ def transformation_flight():
     # Export to CSV
     # ========================================================
 
-    # Export dim_date to CSV
-    dimDate.coalesce(1).write.csv(
-        r"/opt/airflow/warehouse/dim_date.csv", header=True, mode="overwrite"
+    def save_as_single_csv(dataframe, temp_dir, final_csv_path):
+        # Ghi dữ liệu ra thư mục tạm thời
+        dataframe.coalesce(1).write.csv(temp_dir, header=True, mode="overwrite")
+
+        # Tìm tệp CSV trong thư mục tạm thời
+        for filename in os.listdir(temp_dir):
+            if filename.endswith(".csv"):
+                temp_csv_path = os.path.join(temp_dir, filename)
+                break
+
+        # Di chuyển và đổi tên tệp CSV
+        shutil.move(temp_csv_path, final_csv_path)
+
+        # Xóa thư mục tạm thời
+        shutil.rmtree(temp_dir)
+
+    # Lưu dimDate
+    save_as_single_csv(
+        dimDate,
+        r"/opt/airflow/warehouse/temp_dim_date",
+        r"/opt/airflow/warehouse/dim_date.csv",
     )
 
-    # Export dim_airline to CSV
-    dimAirline.coalesce(1).write.csv(
-        r"/opt/airflow/warehouse/dim_airline.csv",
-        header=True,
-        mode="overwrite",
+    # Lưu dimAirport
+    save_as_single_csv(
+        dimAirport,
+        r"/opt/airflow/warehouse/temp_dim_airport",
+        r"/opt/airflow/warehouse/dim_airport.csv",
     )
 
-    # Export dim_airport to CSV
-    dimAirport.coalesce(1).write.csv(
-        r"opt/airflow/warehouse/dim_airport.csv",
-        header=True,
-        mode="overwrite",
-    )
-
-    # Export fact_flight to CSV
-    factFlight.coalesce(1).write.csv(
+    # Lưu factFlight
+    save_as_single_csv(
+        factFlight,
+        r"/opt/airflow/warehouse/temp_fact_flight",
         r"/opt/airflow/warehouse/fact_flight.csv",
-        header=True,
-        mode="overwrite",
     )
 
-    print("Finish Export")
+    # Lưu dimAirport
+    save_as_single_csv(
+        dimAirline,
+        r"/opt/airflow/warehouse/temp_dim_airline",
+        r"/opt/airflow/warehouse/dim_airline.csv",
+    )
     # ========================================================
     # Finish Export
     # ========================================================
-
-
-# Đảm bảo hàm được export
-__all__ = ["transformation_flight"]
