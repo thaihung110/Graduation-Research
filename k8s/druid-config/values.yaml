@@ -65,6 +65,10 @@ broker:
   port: 8082
   serviceType: ClusterIP
 
+  volumeMounts:
+    - mountPath: /opt/airflow/warehouse
+      name: druid-airflow-warehouse
+  
   config:
     DRUID_XMX: 512m
     DRUID_XMS: 512m
@@ -124,6 +128,10 @@ coordinator:
   port: 8081
   serviceType: ClusterIP
 
+  volumeMounts:
+    - mountPath: /opt/airflow/warehouse
+      name: druid-airflow-warehouse
+  
   config:
     DRUID_XMX: 256m
     DRUID_XMS: 256m

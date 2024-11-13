@@ -62,7 +62,7 @@ containerLifecycleHooks: {}
 
 # Airflow home directory
 # Used for mount paths
-airflowHome: /opt/airflow
+airflowHome: /opt/airflow/warehouse
 
 # Default airflow repository -- overridden by all the specific images below
 defaultAirflowRepository: my-airflow
