@@ -95,6 +95,8 @@ gitSync:
 Upgrade local deployment by using command
 
 ```
+# helm upgrade --install airflow apache-airflow/airflow --namespace airflow --create-namespace
+
 helm upgrade --install airflow apache-airflow/airflow -n airflow -f values.yaml --debug
 ```
 

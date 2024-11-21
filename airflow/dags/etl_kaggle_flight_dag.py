@@ -1,4 +1,7 @@
 from datetime import datetime, timedelta
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from transformation_flight import transformation_flight  # Import from plugins
 
 from druid_ingestion import (  # Import the ingestion functions
     submit_dim_airline_ingestion_spec,
@@ -7,9 +10,6 @@ from druid_ingestion import (  # Import the ingestion functions
     submit_fact_flight_ingestion_spec,
 )
 
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from transformation_flight import transformation_flight  # Import from plugins
 
 # Define default arguments for the DAG
 default_args = {
