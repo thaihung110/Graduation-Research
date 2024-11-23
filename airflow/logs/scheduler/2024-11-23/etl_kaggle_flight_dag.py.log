@@ -1056,3 +1056,17 @@ ModuleNotFoundError: No module named 'airflow.plugins'
 [2024-11-23T12:56:26.956+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:56:26.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-23T12:56:26.969+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:56:26.969+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_kaggle_flight_dag to 2024-11-22 00:00:00+00:00, run_after=2024-11-23 00:00:00+00:00
 [2024-11-23T12:56:26.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_kaggle_flight_dag.py took 0.481 seconds
+[2024-11-23T12:56:57.139+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/etl_kaggle_flight_dag.py
+[2024-11-23T12:56:57.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_kaggle_flight_dag.py for tasks to queue
+[2024-11-23T12:56:57.144+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:56:57.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_kaggle_flight_dag.py
+[2024-11-23T12:56:57.486+0000] {processor.py:925} INFO - DAG(s) 'etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/etl_kaggle_flight_dag.py
+[2024-11-23T12:56:57.498+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:56:57.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-23T12:56:57.508+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:56:57.508+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_kaggle_flight_dag to 2024-11-22 00:00:00+00:00, run_after=2024-11-23 00:00:00+00:00
+[2024-11-23T12:56:57.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_kaggle_flight_dag.py took 0.399 seconds
+[2024-11-23T12:57:27.774+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/etl_kaggle_flight_dag.py
+[2024-11-23T12:57:27.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_kaggle_flight_dag.py for tasks to queue
+[2024-11-23T12:57:27.782+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:57:27.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_kaggle_flight_dag.py
+[2024-11-23T12:57:28.143+0000] {processor.py:925} INFO - DAG(s) 'etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/etl_kaggle_flight_dag.py
+[2024-11-23T12:57:28.158+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:57:28.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-23T12:57:28.169+0000] {logging_mixin.py:190} INFO - [2024-11-23T12:57:28.169+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_kaggle_flight_dag to 2024-11-22 00:00:00+00:00, run_after=2024-11-23 00:00:00+00:00
+[2024-11-23T12:57:28.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_kaggle_flight_dag.py took 0.432 seconds
