@@ -71,7 +71,7 @@ services:
     command:
       - coordinator
     env_file:
-      - environment
+      - ./druid/environment
 
   broker:
     image: apache/druid:31.0.0
@@ -88,7 +88,7 @@ services:
     command:
       - broker
     env_file:
-      - environment
+      - ./druid/environment
 
   historical:
     image: apache/druid:31.0.0
@@ -106,7 +106,7 @@ services:
     command:
       - historical
     env_file:
-      - environment
+      - ./druid/environment
 
   middlemanager:
     image: apache/druid:31.0.0
@@ -125,7 +125,7 @@ services:
     command:
       - middleManager
     env_file:
-      - environment
+      - ./druid/environment
     deploy:
       resources:
         limits:
@@ -150,4 +150,4 @@ services:
     command:
       - router
     env_file:
-      - environment
+      - ./druid/environment

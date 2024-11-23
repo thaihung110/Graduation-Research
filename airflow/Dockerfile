@@ -1,4 +1,4 @@
-FROM apache/airflow:latest
+FROM apache/airflow:2.10.3
 USER root
 
 # Cài đặt các dependencies cần thiết
