@@ -1,4 +1,5 @@
 import json
+import time
 
 import requests
 
@@ -51,6 +52,7 @@ def submit_dim_date_ingestion_spec():
         },
     }
     submit_to_druid(ingestion_spec)
+    time.sleep(20)
 
 
 def submit_dim_airport_ingestion_spec():
@@ -59,6 +61,11 @@ def submit_dim_airport_ingestion_spec():
         "spec": {
             "dataSchema": {
                 "dataSource": "dim_airport",
+                "timestampSpec": {
+                    "column": "",  # No column to specify
+                    "format": "auto",
+                    "missingValue": "1970-01-01T00:00:00Z",
+                },
                 "dimensionsSpec": {"dimensions": ["airportKey", "airportCode"]},
             },
             "ioConfig": {
@@ -77,6 +84,7 @@ def submit_dim_airport_ingestion_spec():
         },
     }
     submit_to_druid(ingestion_spec)
+    time.sleep(20)
 
 
 def submit_dim_airline_ingestion_spec():
@@ -85,6 +93,11 @@ def submit_dim_airline_ingestion_spec():
         "spec": {
             "dataSchema": {
                 "dataSource": "dim_airline",
+                "timestampSpec": {
+                    "column": "",  # No column to specify
+                    "format": "auto",
+                    "missingValue": "1970-01-01T00:00:00Z",
+                },
                 "dimensionsSpec": {
                     "dimensions": [
                         "airlineKey",
@@ -108,6 +121,7 @@ def submit_dim_airline_ingestion_spec():
         },
     }
     submit_to_druid(ingestion_spec)
+    time.sleep(20)
 
 
 def submit_fact_flight_ingestion_spec():
@@ -150,3 +164,4 @@ def submit_fact_flight_ingestion_spec():
         },
     }
     submit_to_druid(ingestion_spec)
+    time.sleep(20)
