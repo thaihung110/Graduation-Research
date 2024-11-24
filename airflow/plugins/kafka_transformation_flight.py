@@ -351,16 +351,19 @@ def kafka_transformation_flight():
 
     # Send data to Kafka
 
+    def serializer(message):
+        return json.dumps(message).encode('utf-8')
+
     def send_to_kafka(topic, dataframe):
         producer = KafkaProducer(
-            bootstrap_servers=f"{KAFKA_HOST_IP}:9092",
-            value_serializer=lambda v: json.dumps(v).encode("utf-8")
+            bootstrap_servers= [f"{KAFKA_HOST_IP}:9092"],
+            value_serializer=serializer,
         )
         for row in dataframe.collect():  # Collect rows to iterate
             message = row.asDict()  # Convert the row to a dictionary
+            print(f"Sending message to {topic}: {message}")
             producer.send(topic, value=message)
-        producer.flush()
-        producer.close()
+        
 
     send_to_kafka(DIM_AIRLINE_TOPIC, dimAirline)
     send_to_kafka(DIM_AIRPORT_TOPIC, dimAirport)

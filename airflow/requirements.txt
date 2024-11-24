@@ -4,4 +4,4 @@ pyarrow
 numpy
 pandas
 pyspark
-kafka-python==2.0.2
+kafka-python-ng
