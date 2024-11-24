@@ -1,5 +1,3 @@
-import os
-import shutil
 import json
 
 from kafka import KafkaProducer
@@ -27,7 +25,7 @@ from pyspark.sql.functions import (
 from pyspark.sql.window import Window
 
 
-def transformation_flight():
+def kafka_transformation_flight():
 
     # Initialize Spark session
     spark = SparkSession.builder.appName("TransformData").getOrCreate()
@@ -353,24 +351,22 @@ def transformation_flight():
 
     # Send data to Kafka
 
-    def send_to_kafka(topic, data):
-        producer = KafkaProducer(bootstrap_servers=f"{KAFKA_HOST_IP}:9092")
-        for record in data:
-            producer.send(topic, value=record)
+    def send_to_kafka(topic, dataframe):
+        producer = KafkaProducer(
+            bootstrap_servers=f"{KAFKA_HOST_IP}:9092",
+            value_serializer=lambda v: json.dumps(v).encode("utf-8")
+        )
+        for row in dataframe.collect():  # Collect rows to iterate
+            message = row.asDict()  # Convert the row to a dictionary
+            producer.send(topic, value=message)
         producer.flush()
         producer.close()
 
-    # Convert DataFrames to JSON strings
-    dimAirline_json = dimAirline.toJSON().collect()
-    dimAirport_json = dimAirport.toJSON().collect()
-    dimDate_json = dimDate.toJSON().collect()
-    factFlight_json = factFlight.toJSON().collect()
+    send_to_kafka(DIM_AIRLINE_TOPIC, dimAirline)
+    send_to_kafka(DIM_AIRPORT_TOPIC, dimAirport)
+    send_to_kafka(DIM_DATE_TOPIC, dimDate)
+    send_to_kafka(FACT_FLIGHT_TOPIC, factFlight)
 
-    # Send data to Kafka topics
-    send_to_kafka(DIM_AIRLINE_TOPIC, dimAirline_json)
-    send_to_kafka(DIM_AIRPORT_TOPIC, dimAirport_json)
-    send_to_kafka(DIM_DATE_TOPIC, dimDate_json)
-    send_to_kafka(FACT_FLIGHT_TOPIC, factFlight_json)
     
     print("Finish Sending Data to Kafka")
     

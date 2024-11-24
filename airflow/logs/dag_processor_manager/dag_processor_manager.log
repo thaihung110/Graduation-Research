@@ -5111,3 +5111,1635 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-23T17:48:41                      12
 /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-23T17:48:37                       5
 ================================================================================
+[2024-11-24T00:44:48.987+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-24T00:44:48.992+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-24T00:44:48.993+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-11-24T00:44:48.995+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T00:44:49.024+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T00:45:34.959+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.41s           2024-11-24T00:45:34                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.21s           2024-11-24T00:44:49                       5
+================================================================================
+[2024-11-24T00:46:44.486+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-24T00:46:44.839+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-24T00:46:44.839+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-24T00:46:44.840+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-11-24T00:46:44.840+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T00:46:44.843+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T00:46:44.993+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.10s           2024-11-24T00:46:44                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 0           0                                                            0
+================================================================================
+[2024-11-24T00:47:15.959+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:47:15                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T00:47:07                      12
+================================================================================
+[2024-11-24T00:47:47.055+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T00:47:38                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:47:47                       5
+================================================================================
+[2024-11-24T00:48:17.972+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T00:48:08                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:48:17                       5
+================================================================================
+[2024-11-24T00:48:48.123+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.40s           2024-11-24T00:48:39                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T00:48:48                       5
+================================================================================
+[2024-11-24T00:49:18.366+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T00:49:09                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:49:18                       5
+================================================================================
+[2024-11-24T00:49:48.643+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T00:49:40                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T00:49:48                       5
+================================================================================
+[2024-11-24T00:50:18.851+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T00:50:11                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.10s           2024-11-24T00:50:18                       5
+================================================================================
+[2024-11-24T00:50:49.143+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T00:50:49                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T00:50:41                      12
+================================================================================
+[2024-11-24T00:51:19.393+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T00:51:11                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:51:19                       5
+================================================================================
+[2024-11-24T00:51:44.991+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T00:51:45.003+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T00:51:49.649+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T00:51:41                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:51:49                       5
+================================================================================
+[2024-11-24T00:52:19.814+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T00:52:12                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:52:19                       5
+================================================================================
+[2024-11-24T00:52:50.042+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.25s           2024-11-24T00:52:43                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:52:50                       5
+================================================================================
+[2024-11-24T00:53:20.281+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T00:53:13                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:53:20                       5
+================================================================================
+[2024-11-24T00:53:50.542+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T00:53:50                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T00:53:43                      12
+================================================================================
+[2024-11-24T00:54:20.788+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.12s           2024-11-24T00:54:14                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:54:20                       5
+================================================================================
+[2024-11-24T00:54:51.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T00:54:44                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:54:51                       5
+================================================================================
+[2024-11-24T00:55:21.312+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.25s           2024-11-24T00:55:15                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:55:21                       5
+================================================================================
+[2024-11-24T00:55:51.571+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T00:55:46                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:55:51                       5
+================================================================================
+[2024-11-24T00:56:21.819+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T00:56:16                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:56:21                       5
+================================================================================
+[2024-11-24T00:56:45.169+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T00:56:45.180+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T00:56:52.078+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T00:56:47                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:56:52                       5
+================================================================================
+[2024-11-24T00:57:22.311+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T00:57:17                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:57:22                       5
+================================================================================
+[2024-11-24T00:57:52.565+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.25s           2024-11-24T00:57:48                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:57:52                       5
+================================================================================
+[2024-11-24T00:58:22.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T00:58:19                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:58:22                       5
+================================================================================
+[2024-11-24T00:58:52.955+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T00:58:49                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:58:52                       5
+================================================================================
+[2024-11-24T00:59:23.128+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T00:59:20                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:59:02                       5
+================================================================================
+[2024-11-24T00:59:53.225+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.37s           2024-11-24T00:59:52                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T00:59:32                       5
+================================================================================
+[2024-11-24T01:00:23.608+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T01:00:22                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:00:03                       5
+================================================================================
+[2024-11-24T01:00:53.867+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T01:00:53                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:00:33                       5
+================================================================================
+[2024-11-24T01:01:24.111+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T01:01:24                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:01:04                       5
+================================================================================
+[2024-11-24T01:01:45.388+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:01:45.394+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:01:54.503+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:01:34                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:01:54                      12
+================================================================================
+[2024-11-24T01:02:25.008+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:02:25                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:02:04                       5
+================================================================================
+[2024-11-24T01:02:55.532+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:02:55                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:02:35                       5
+================================================================================
+[2024-11-24T01:03:25.941+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T01:03:25                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:03:05                       5
+================================================================================
+[2024-11-24T01:03:35.550+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-24T01:06:38.278+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-24T01:06:38.279+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-24T01:06:38.280+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-11-24T01:06:38.283+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:06:38.313+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:06:38.799+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.33s           2024-11-24T01:06:38                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 0           0                                                            0
+================================================================================
+[2024-11-24T01:07:08.994+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  1.18s           2024-11-24T01:06:41                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:07:08                       5
+================================================================================
+[2024-11-24T01:07:39.634+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.41s           2024-11-24T01:07:12                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.37s           2024-11-24T01:07:39                       5
+================================================================================
+[2024-11-24T01:08:09.995+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.20s           2024-11-24T01:07:42                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T01:08:09                       5
+================================================================================
+[2024-11-24T01:08:40.341+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T01:08:40                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:08:13                      12
+================================================================================
+[2024-11-24T01:09:11.013+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:08:43                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:09:11                       5
+================================================================================
+[2024-11-24T01:09:41.459+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:09:14                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:09:41                       5
+================================================================================
+[2024-11-24T01:10:11.611+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:09:44                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:10:11                       5
+================================================================================
+[2024-11-24T01:10:41.762+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:10:15                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:10:41                       5
+================================================================================
+[2024-11-24T01:11:11.924+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:10:45                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:11:11                       5
+================================================================================
+[2024-11-24T01:11:38.345+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:11:38.356+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:11:42.930+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:11:15                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:11:42                       5
+================================================================================
+[2024-11-24T01:12:13.226+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T01:12:13                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.12s           2024-11-24T01:11:46                      12
+================================================================================
+[2024-11-24T01:12:43.421+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:12:16                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:12:41                       5
+================================================================================
+[2024-11-24T01:13:13.579+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:12:47                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:13:12                       5
+================================================================================
+[2024-11-24T01:13:43.757+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T01:13:17                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:13:42                       5
+================================================================================
+[2024-11-24T01:14:13.871+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:14:13                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:13:47                      12
+================================================================================
+[2024-11-24T01:14:44.015+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.20s           2024-11-24T01:14:18                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T01:14:44                       5
+================================================================================
+[2024-11-24T01:15:15.162+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:15:15                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:14:48                      12
+================================================================================
+[2024-11-24T01:15:45.359+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:15:19                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:15:45                       5
+================================================================================
+[2024-11-24T01:16:15.509+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:15:50                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:16:15                       5
+================================================================================
+[2024-11-24T01:16:38.416+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:16:38.428+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:16:45.932+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:16:20                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:16:45                       5
+================================================================================
+[2024-11-24T01:17:16.238+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:16:51                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:17:16                       5
+================================================================================
+[2024-11-24T01:17:46.682+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T01:17:21                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:17:46                       5
+================================================================================
+[2024-11-24T01:18:17.050+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:17:51                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:18:17                       5
+================================================================================
+[2024-11-24T01:18:47.387+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:18:22                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T01:18:47                       5
+================================================================================
+[2024-11-24T01:19:17.732+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:18:52                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:19:17                       5
+================================================================================
+[2024-11-24T01:19:48.083+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T01:19:22                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:19:48                       5
+================================================================================
+[2024-11-24T01:20:18.597+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.35s           2024-11-24T01:19:53                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:20:18                       5
+================================================================================
+[2024-11-24T01:20:48.913+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:20:23                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:20:48                       5
+================================================================================
+[2024-11-24T01:21:19.065+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:20:53                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:20:58                       5
+================================================================================
+[2024-11-24T01:21:38.483+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:21:38.492+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:21:49.399+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T01:21:24                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:21:29                       5
+================================================================================
+[2024-11-24T01:22:19.761+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.37s           2024-11-24T01:21:54                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:22:00                       5
+================================================================================
+[2024-11-24T01:22:50.350+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.28s           2024-11-24T01:22:25                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:22:30                       5
+================================================================================
+[2024-11-24T01:23:21.312+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.27s           2024-11-24T01:22:55                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:23:01                       5
+================================================================================
+[2024-11-24T01:23:52.074+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.27s           2024-11-24T01:23:25                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:23:31                       5
+================================================================================
+[2024-11-24T01:24:22.594+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T01:23:56                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:24:02                       5
+================================================================================
+[2024-11-24T01:24:52.998+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T01:24:26                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:24:32                       5
+================================================================================
+[2024-11-24T01:25:23.547+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.35s           2024-11-24T01:24:57                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:25:03                       5
+================================================================================
+[2024-11-24T01:25:53.943+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T01:25:27                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:25:33                       5
+================================================================================
+[2024-11-24T01:26:24.425+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.46s           2024-11-24T01:25:58                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:26:04                       5
+================================================================================
+[2024-11-24T01:26:38.542+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:26:38.553+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:26:54.822+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.23s           2024-11-24T01:26:28                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:26:34                       5
+================================================================================
+[2024-11-24T01:27:25.285+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.24s           2024-11-24T01:26:58                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:27:05                       5
+================================================================================
+[2024-11-24T01:27:55.805+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.37s           2024-11-24T01:27:29                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:27:35                       5
+================================================================================
+[2024-11-24T01:28:26.254+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.36s           2024-11-24T01:27:59                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:28:06                       5
+================================================================================
+[2024-11-24T01:28:56.744+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T01:28:30                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:28:36                       5
+================================================================================
+[2024-11-24T01:29:27.193+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.27s           2024-11-24T01:29:00                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:29:06                       5
+================================================================================
+[2024-11-24T01:29:57.662+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T01:29:30                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:29:37                       5
+================================================================================
+[2024-11-24T01:30:28.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.28s           2024-11-24T01:30:01                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:30:07                       5
+================================================================================
+[2024-11-24T01:30:58.663+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.36s           2024-11-24T01:30:31                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:30:38                       5
+================================================================================
+[2024-11-24T01:31:29.113+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.27s           2024-11-24T01:31:02                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:31:08                       5
+================================================================================
+[2024-11-24T01:31:38.622+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:31:38.631+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:31:59.604+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.25s           2024-11-24T01:31:32                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T01:31:39                       5
+================================================================================
+[2024-11-24T01:32:30.117+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.27s           2024-11-24T01:32:02                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:32:09                       5
+================================================================================
+[2024-11-24T01:33:00.424+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.25s           2024-11-24T01:32:33                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:32:40                       5
+================================================================================
+[2024-11-24T01:33:30.845+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.25s           2024-11-24T01:33:03                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T01:33:10                       5
+================================================================================
+[2024-11-24T01:35:35.668+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-24T01:35:35.675+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-24T01:35:35.679+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-11-24T01:35:35.681+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:35:35.688+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:35:36.122+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.22s           2024-11-24T01:35:36                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 0           0                                                            0
+================================================================================
+[2024-11-24T01:36:07.166+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  1.38s           2024-11-24T01:35:39                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.75s           2024-11-24T01:36:07                       5
+================================================================================
+[2024-11-24T01:36:37.410+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.54s           2024-11-24T01:36:10                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:36:37                       5
+================================================================================
+[2024-11-24T01:37:08.639+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T01:37:08                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T01:36:41                      12
+================================================================================
+[2024-11-24T01:37:39.315+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:37:12                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:37:39                       5
+================================================================================
+[2024-11-24T01:38:09.861+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:37:42                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:38:09                       5
+================================================================================
+[2024-11-24T01:38:40.222+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T01:38:13                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:38:40                       5
+================================================================================
+[2024-11-24T01:39:10.231+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.20s           2024-11-24T01:38:43                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:38:40                       5
+================================================================================
+[2024-11-24T01:40:46.458+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-24T01:40:46.462+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-24T01:40:46.463+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-11-24T01:40:46.463+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:40:46.476+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:40:46.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.22s           2024-11-24T01:40:46                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 0           0                                                            0
+================================================================================
+[2024-11-24T01:41:17.331+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.74s           2024-11-24T01:40:49                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T01:41:17                       5
+================================================================================
+[2024-11-24T01:41:48.500+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  1.25s           2024-11-24T01:41:20                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.46s           2024-11-24T01:41:48                       5
+================================================================================
+[2024-11-24T01:42:18.981+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:41:51                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:42:18                       5
+================================================================================
+[2024-11-24T01:42:49.456+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:42:49                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.10s           2024-11-24T01:42:22                      12
+================================================================================
+[2024-11-24T01:43:20.161+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:43:20                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:42:52                      12
+================================================================================
+[2024-11-24T01:43:50.686+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:43:50                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.10s           2024-11-24T01:43:23                      12
+================================================================================
+[2024-11-24T01:44:22.319+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  1.28s           2024-11-24T01:44:22                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:43:53                      12
+================================================================================
+[2024-11-24T01:44:52.899+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.26s           2024-11-24T01:44:24                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:44:52                       5
+================================================================================
+[2024-11-24T01:45:23.370+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:45:23                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:44:55                      12
+================================================================================
+[2024-11-24T01:45:46.558+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:45:46.580+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:45:53.836+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:45:25                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:45:53                       5
+================================================================================
+[2024-11-24T01:46:24.412+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T01:46:24                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.10s           2024-11-24T01:45:56                      12
+================================================================================
+[2024-11-24T01:46:55.107+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T01:46:55                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:46:26                      12
+================================================================================
+[2024-11-24T01:47:25.798+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.29s           2024-11-24T01:47:25                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:46:57                      12
+================================================================================
+[2024-11-24T01:47:56.276+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:47:28                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T01:47:56                       5
+================================================================================
+[2024-11-24T01:48:26.754+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:47:58                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:48:26                       5
+================================================================================
+[2024-11-24T01:48:57.529+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:48:29                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:48:57                       5
+================================================================================
+[2024-11-24T01:49:27.937+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:48:59                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:49:27                       5
+================================================================================
+[2024-11-24T01:49:58.638+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:49:29                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:49:58                       5
+================================================================================
+[2024-11-24T01:50:29.009+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:50:00                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:50:29                       5
+================================================================================
+[2024-11-24T01:50:47.303+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:50:47.331+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:50:59.261+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:50:30                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:50:59                       5
+================================================================================
+[2024-11-24T01:51:29.586+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:51:00                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:51:29                       5
+================================================================================
+[2024-11-24T01:52:00.179+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T01:52:00                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:51:31                      12
+================================================================================
+[2024-11-24T01:52:30.336+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:52:02                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:52:30                       5
+================================================================================
+[2024-11-24T01:53:00.707+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:52:32                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:53:00                       5
+================================================================================
+[2024-11-24T01:53:31.055+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:53:03                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:53:31                       5
+================================================================================
+[2024-11-24T01:54:01.486+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.36s           2024-11-24T01:54:01                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:53:33                      12
+================================================================================
+[2024-11-24T01:54:31.617+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:54:03                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T01:54:31                       5
+================================================================================
+[2024-11-24T01:55:01.988+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:55:01                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T01:54:33                      12
+================================================================================
+[2024-11-24T01:55:32.344+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:55:04                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:55:32                       5
+================================================================================
+[2024-11-24T01:55:47.508+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T01:55:47.513+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T01:56:02.601+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:55:34                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:56:02                       5
+================================================================================
+[2024-11-24T01:56:33.141+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T01:56:05                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:56:33                       5
+================================================================================
+[2024-11-24T01:57:03.604+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:56:35                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T01:57:03                       5
+================================================================================
+[2024-11-24T01:57:33.965+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:57:05                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:57:33                       5
+================================================================================
+[2024-11-24T01:58:04.290+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:57:36                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T01:58:04                       5
+================================================================================
+[2024-11-24T01:58:34.628+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:58:06                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T01:58:34                       5
+================================================================================
+[2024-11-24T01:59:05.053+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.27s           2024-11-24T01:59:05                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:58:36                      12
+================================================================================
+[2024-11-24T01:59:35.487+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:59:07                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T01:59:35                       5
+================================================================================
+[2024-11-24T02:00:05.798+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T01:59:37                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:00:05                       5
+================================================================================
+[2024-11-24T02:00:36.861+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.27s           2024-11-24T02:00:36                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:00:07                      12
+================================================================================
+[2024-11-24T02:00:47.570+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T02:00:47.585+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T02:01:07.527+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:00:38                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:01:07                       5
+================================================================================
+[2024-11-24T02:01:37.993+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.22s           2024-11-24T02:01:37                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:01:08                      12
+================================================================================
+[2024-11-24T02:02:08.284+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T02:01:38                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:02:08                       5
+================================================================================
+[2024-11-24T02:02:38.793+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T02:02:38                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:02:09                      12
+================================================================================
+[2024-11-24T02:03:09.768+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T02:03:09                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:02:39                      12
+================================================================================
+[2024-11-24T02:03:40.147+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T02:03:40                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:03:10                      12
+================================================================================
+[2024-11-24T02:04:10.438+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:03:41                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:04:10                       5
+================================================================================
+[2024-11-24T02:04:40.806+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T02:04:40                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:04:11                      12
+================================================================================
+[2024-11-24T02:05:11.159+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T02:05:11                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:04:42                      12
+================================================================================
+[2024-11-24T02:05:41.520+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T02:05:41                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:05:12                      12
+================================================================================
+[2024-11-24T02:05:47.630+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T02:05:47.636+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T02:06:11.887+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.27s           2024-11-24T02:06:11                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:05:42                      12
+================================================================================
+[2024-11-24T02:06:42.149+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:06:13                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:06:42                       5
+================================================================================
+[2024-11-24T02:07:12.406+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:06:43                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:07:12                       5
+================================================================================
+[2024-11-24T02:07:42.664+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:07:13                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:07:42                       5
+================================================================================
+[2024-11-24T02:08:12.935+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.17s           2024-11-24T02:08:12                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T02:07:43                      12
+================================================================================
+[2024-11-24T02:08:43.118+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:08:14                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:08:43                       5
+================================================================================
+[2024-11-24T02:09:13.364+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:08:45                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:09:13                       5
+================================================================================
+[2024-11-24T02:09:43.599+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:09:15                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T02:09:43                       5
+================================================================================
+[2024-11-24T02:10:13.981+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T02:10:13                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:09:45                      12
+================================================================================
+[2024-11-24T02:10:44.255+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:10:16                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:10:44                       5
+================================================================================
+[2024-11-24T02:10:47.764+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T02:10:47.773+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T02:11:14.595+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T02:11:14                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:10:46                      12
+================================================================================
+[2024-11-24T02:11:44.974+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.26s           2024-11-24T02:11:44                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:11:16                      12
+================================================================================
+[2024-11-24T02:12:15.207+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:11:47                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T02:12:15                       5
+================================================================================
+[2024-11-24T02:12:45.424+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:12:17                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T02:12:45                       5
+================================================================================
+[2024-11-24T02:13:15.643+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:12:48                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.13s           2024-11-24T02:13:15                       5
+================================================================================
+[2024-11-24T02:13:45.889+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:13:19                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:13:45                       5
+================================================================================
+[2024-11-24T02:14:16.249+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.25s           2024-11-24T02:14:16                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:13:49                      12
+================================================================================
+[2024-11-24T02:14:46.489+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:14:20                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T02:14:46                       5
+================================================================================
+[2024-11-24T02:15:16.721+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T02:14:50                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T02:15:16                       5
+================================================================================
+[2024-11-24T02:15:46.979+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:15:21                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:15:46                       5
+================================================================================
+[2024-11-24T02:15:48.022+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-11-24T02:15:48.028+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-11-24T02:16:17.214+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:15:51                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.14s           2024-11-24T02:16:17                       5
+================================================================================
+[2024-11-24T02:16:47.482+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.22s           2024-11-24T02:16:22                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:16:47                       5
+================================================================================
+[2024-11-24T02:17:17.760+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:16:52                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:17:17                       5
+================================================================================
+[2024-11-24T02:17:47.951+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.31s           2024-11-24T02:17:23                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:17:47                       5
+================================================================================
+[2024-11-24T02:18:18.200+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:17:53                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.15s           2024-11-24T02:18:18                       5
+================================================================================
+[2024-11-24T02:18:48.470+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:18:24                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.16s           2024-11-24T02:18:48                       5
+================================================================================
+[2024-11-24T02:19:18.674+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.21s           2024-11-24T02:18:55                      12
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.11s           2024-11-24T02:19:18                       5
+================================================================================
+[2024-11-24T02:19:48.844+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kafka_etl_kaggle_flight_dag.py                           0           1  0.12s           2024-11-24T02:19:48                       5
+/opt/airflow/dags/etl_kaggle_flight_dag.py                                 1           0  0.11s           2024-11-24T02:19:25                      12
+================================================================================
