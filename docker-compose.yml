@@ -160,7 +160,7 @@ services:
     volumes:
       - kafka_data:/bitnami
     ports:
-      - 9094:9094
+      - 9092:9092
     environment:
       - KAFKA_AUTO_CREATE_TOPICS_ENABLE=true
       # KRaft settings
@@ -193,21 +193,3 @@ services:
       - KAFKA_CLUSTERS_0_AUDIT_CONSOLEAUDITENABLED=true
     depends_on:
       - kafka
-
-  metabase:
-    image: metabase/metabase:latest
-    container_name: metabase
-    volumes:
-      - metabase_data:/metabase.db
-    ports:
-      - 3000:3000
-    environment:
-      MB_DB_CONNECTION_URI: jdbc:postgresql://postgres:5432/postgres?user=postgres&password=postgres
-      MB_DB_TYPE: postgres
-    depends_on:
-      - postgres
-    healthcheck:
-      test: curl --fail -I http://localhost:3000/api/health || exit 1
-      interval: 15s
-      timeout: 5s
-      retries: 5

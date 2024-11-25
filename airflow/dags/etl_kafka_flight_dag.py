@@ -406,7 +406,7 @@ default_args = {
 
 # Define the DAG
 with DAG(
-    "kafka_etl_kaggle_flight_dag",
+    "etl_kafka_flight_dag",
     default_args=default_args,
     description="A DAG to run the kafka_transformation_flight function and load data into Druid",
     schedule_interval=timedelta(days=1),
@@ -415,7 +415,7 @@ with DAG(
 
     # Define the PythonOperator task for data transformation
     run_kafka_transformation_flight = PythonOperator(
-        task_id="run_kafka_transformation_flight",
+        task_id="run_etl_kafka_transformation_flight",
         python_callable=kafka_transformation_flight,
     )
 
