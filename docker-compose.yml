@@ -110,9 +110,9 @@ services:
     env_file:
       - ./druid/environment
 
-  middlemanager:
+  middlemanager-1:
     image: apache/druid:31.0.0
-    container_name: middlemanager
+    container_name: middlemanager-1
     volumes:
       - druid_shared:/opt/shared
       - middle_var:/opt/druid/var
@@ -123,7 +123,34 @@ services:
       - coordinator
     ports:
       - "8091:8091"
-      - "8100-8105:8100-8105"
+      # - "8100-8105:8100-8105"
+    command:
+      - middleManager
+    env_file:
+      - ./druid/environment
+    deploy:
+      resources:
+        limits:
+          memory: 6g
+          cpus: "2.0"
+        reservations:
+          memory: 6g
+          cpus: "1.5"
+  
+  middlemanager-2:
+    image: apache/druid:31.0.0
+    container_name: middlemanager-2
+    volumes:
+      - druid_shared:/opt/shared
+      - middle_var:/opt/druid/var
+      - ./airflow/warehouse:/opt/airflow/warehouse
+    depends_on:
+      - zookeeper
+      - postgres
+      - coordinator
+    ports:
+      - "8092:8091"
+      # - "8106-8110:8100-8105"
     command:
       - middleManager
     env_file:

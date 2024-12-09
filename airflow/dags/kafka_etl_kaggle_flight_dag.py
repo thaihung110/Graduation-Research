@@ -36,7 +36,7 @@ def kafka_transformation_flight():
     spark = SparkSession.builder.appName("TransformData").getOrCreate()
 
     # Define the file path pattern
-    file_path_pattern = r"/opt/airflow/data/file_part_1.csv"
+    file_path_pattern = r"/opt/airflow/data/file_part_1_lite.csv"
 
     # Load and concatenate all CSV files matching the pattern
     initial_df = spark.read.csv(
