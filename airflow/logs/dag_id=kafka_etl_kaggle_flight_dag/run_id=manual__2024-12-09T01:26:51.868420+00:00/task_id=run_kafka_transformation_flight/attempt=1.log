@@ -1,3 +1,0 @@
-[2024-12-09T01:27:58.713+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
-[2024-12-09T01:27:58.719+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: kafka_etl_kaggle_flight_dag.run_kafka_transformation_flight manual__2024-12-09T01:26:51.868420+00:00 [skipped]>, dependency 'Task Instance State' FAILED: Task is in the 'skipped' state.
-[2024-12-09T01:27:58.719+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

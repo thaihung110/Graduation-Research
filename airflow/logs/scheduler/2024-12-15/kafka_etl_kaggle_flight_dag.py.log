@@ -1,0 +1,253 @@
+[2024-12-15T03:22:40.604+0000] {processor.py:186} INFO - Started process (PID=30) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:22:40.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:22:40.607+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:40.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:22:41.184+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:22:41.376+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.376+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.386+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.386+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.403+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.402+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.417+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.417+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.432+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.431+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.448+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.448+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.459+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.458+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.459+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:22:41.469+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.469+0000] {dag.py:3262} INFO - Creating ORM DAG for kafka_etl_kaggle_flight_dag
+[2024-12-15T03:22:41.477+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:22:41.477+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:22:41.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.895 seconds
+[2024-12-15T03:23:11.664+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:23:11.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:23:11.671+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:23:11.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:23:12.162+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:23:12.178+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:23:12.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:23:12.197+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:23:12.197+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:23:12.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.570 seconds
+[2024-12-15T03:23:43.009+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:23:43.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:23:43.016+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:23:43.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:23:43.384+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:23:43.396+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:23:43.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:23:43.407+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:23:43.407+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:23:43.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.444 seconds
+[2024-12-15T03:24:14.415+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:24:14.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:24:14.423+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:24:14.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:24:14.862+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:24:14.878+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:24:14.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:24:14.892+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:24:14.892+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:24:14.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.511 seconds
+[2024-12-15T03:24:45.737+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:24:45.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:24:45.750+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:24:45.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:24:46.170+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:24:46.186+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:24:46.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:24:46.200+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:24:46.199+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:24:46.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.487 seconds
+[2024-12-15T03:25:16.997+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:25:16.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:25:17.010+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:25:17.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:25:17.437+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:25:17.451+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:25:17.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:25:17.462+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:25:17.462+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:25:17.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.492 seconds
+[2024-12-15T03:25:47.840+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:25:47.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:25:47.849+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:25:47.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:25:48.241+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:25:48.255+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:25:48.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:25:48.267+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:25:48.267+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:25:48.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.452 seconds
+[2024-12-15T03:26:18.780+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:26:18.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:26:18.788+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:26:18.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:26:19.409+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:26:19.426+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:26:19.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:26:19.439+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:26:19.439+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:26:19.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.690 seconds
+[2024-12-15T03:26:49.835+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:26:49.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:26:49.845+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:26:49.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:26:50.271+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:26:50.284+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:26:50.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:26:50.297+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:26:50.297+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:26:50.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.501 seconds
+[2024-12-15T03:27:20.768+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:27:20.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:27:20.780+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:27:20.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:27:21.191+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:27:21.205+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:27:21.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:27:21.219+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:27:21.219+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:27:21.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.487 seconds
+[2024-12-15T03:27:51.601+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:27:51.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:27:51.609+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:27:51.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:27:51.986+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:27:52.001+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:27:52.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:27:52.018+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:27:52.018+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-15T03:27:52.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.453 seconds
+[2024-12-15T03:30:15.115+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:30:15.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:30:15.117+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:30:15.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:30:15.276+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:30:15.304+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:30:15.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:30:15.316+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:30:15.316+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:30:15.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.236 seconds
+[2024-12-15T03:31:17.217+0000] {processor.py:186} INFO - Started process (PID=659) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:31:17.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:31:17.219+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:31:17.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:31:17.391+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:31:17.405+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:31:17.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:31:17.415+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:31:17.415+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:31:17.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.217 seconds
+[2024-12-15T03:31:48.422+0000] {processor.py:186} INFO - Started process (PID=660) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:31:48.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:31:48.427+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:31:48.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:31:48.619+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:31:48.648+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:31:48.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:31:48.665+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:31:48.665+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:31:48.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.275 seconds
+[2024-12-15T03:32:18.990+0000] {processor.py:186} INFO - Started process (PID=661) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:32:18.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:32:18.995+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:32:18.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:32:19.185+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:32:19.221+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:32:19.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:32:19.240+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:32:19.240+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:32:19.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.286 seconds
+[2024-12-15T03:32:50.395+0000] {processor.py:186} INFO - Started process (PID=662) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:32:50.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:32:50.399+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:32:50.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:32:50.607+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:32:50.633+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:32:50.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:32:50.652+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:32:50.652+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:32:50.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.291 seconds
+[2024-12-15T03:33:21.734+0000] {processor.py:186} INFO - Started process (PID=663) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:33:21.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:33:21.738+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:33:21.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:33:21.952+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:33:21.984+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:33:21.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:33:22.021+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:33:22.020+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:33:22.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.318 seconds
+[2024-12-15T03:33:53.079+0000] {processor.py:186} INFO - Started process (PID=664) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:33:53.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:33:53.084+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:33:53.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:33:53.303+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:33:53.328+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:33:53.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:33:53.343+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:33:53.343+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:33:53.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.296 seconds
+[2024-12-15T03:34:23.558+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:34:23.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:34:23.566+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:34:23.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:34:23.740+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:34:23.769+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:34:23.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:34:23.785+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:34:23.785+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:34:23.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.259 seconds
+[2024-12-15T03:34:54.692+0000] {processor.py:186} INFO - Started process (PID=666) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:34:54.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:34:54.696+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:34:54.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:34:54.989+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:34:55.047+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:34:55.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:34:55.069+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:34:55.069+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:34:55.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.446 seconds
+[2024-12-15T03:35:25.589+0000] {processor.py:186} INFO - Started process (PID=667) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:35:25.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:35:25.593+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:35:25.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:35:25.802+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:35:25.851+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:35:25.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:35:25.884+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:35:25.884+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:35:25.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.347 seconds
+[2024-12-15T03:35:56.369+0000] {processor.py:186} INFO - Started process (PID=668) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:35:56.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:35:56.374+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:35:56.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:35:56.677+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:35:56.724+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:35:56.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:35:56.740+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:35:56.739+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:35:56.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.415 seconds
+[2024-12-15T03:36:27.249+0000] {processor.py:186} INFO - Started process (PID=669) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:36:27.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:36:27.256+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:36:27.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:36:27.447+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:36:27.490+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:36:27.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:36:27.509+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:36:27.509+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:36:27.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.295 seconds
+[2024-12-15T03:36:57.955+0000] {processor.py:186} INFO - Started process (PID=670) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:36:57.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:36:57.962+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:36:57.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:36:58.154+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:36:58.177+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:36:58.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:36:58.191+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:36:58.191+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:36:58.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.266 seconds
+[2024-12-15T03:37:28.610+0000] {processor.py:186} INFO - Started process (PID=671) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:37:28.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:37:28.614+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:37:28.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:37:28.811+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:37:28.844+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:37:28.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:37:28.863+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:37:28.863+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:37:28.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.291 seconds
+[2024-12-15T03:37:59.036+0000] {processor.py:186} INFO - Started process (PID=672) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:37:59.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:37:59.042+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:37:59.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:37:59.859+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:37:59.932+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:37:59.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:38:00.162+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:38:00.161+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:38:00.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 1.201 seconds
+[2024-12-15T03:42:47.418+0000] {processor.py:186} INFO - Started process (PID=30) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:42:47.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:42:47.428+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:42:47.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:42:48.444+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:42:48.498+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:42:48.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:42:48.536+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:42:48.535+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:42:48.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 1.223 seconds
+[2024-12-15T03:43:19.252+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:43:19.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:43:19.285+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:43:19.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:43:20.142+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:43:20.168+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:43:20.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:43:20.193+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:43:20.193+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:43:20.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 1.034 seconds
+[2024-12-15T03:43:50.862+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:43:50.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:43:50.882+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:43:50.878+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:43:51.858+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:43:51.904+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:43:51.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:43:51.935+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:43:51.935+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:43:51.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 1.154 seconds
+[2024-12-15T03:44:24.050+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:44:24.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:44:24.336+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:44:24.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:44:28.486+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:44:28.503+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:44:28.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:44:28.515+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:44:28.515+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:44:28.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 4.820 seconds
+[2024-12-15T03:44:59.053+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:44:59.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:44:59.061+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:44:59.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:44:59.682+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:44:59.699+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:44:59.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:44:59.728+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:44:59.728+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:44:59.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.724 seconds
+[2024-12-15T03:45:30.452+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:45:30.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T03:45:30.469+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:45:30.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:45:31.060+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T03:45:31.081+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:45:31.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T03:45:31.106+0000] {logging_mixin.py:190} INFO - [2024-12-15T03:45:31.106+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T03:45:31.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.703 seconds
+[2024-12-15T04:09:34.323+0000] {processor.py:186} INFO - Started process (PID=29) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:09:34.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T04:09:34.325+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:09:34.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:09:34.587+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:09:34.598+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:09:34.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T04:09:34.608+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:09:34.608+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T04:09:34.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.298 seconds
+[2024-12-15T04:10:05.628+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:10:05.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T04:10:05.633+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:10:05.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:10:06.044+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:10:06.057+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:10:06.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T04:10:06.069+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:10:06.069+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T04:10:06.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.461 seconds
+[2024-12-15T04:10:36.913+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:10:36.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py for tasks to queue
+[2024-12-15T04:10:36.916+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:10:36.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:10:37.200+0000] {processor.py:925} INFO - DAG(s) 'kafka_etl_kaggle_flight_dag' retrieved from /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py
+[2024-12-15T04:10:37.211+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:10:37.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T04:10:37.220+0000] {logging_mixin.py:190} INFO - [2024-12-15T04:10:37.220+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka_etl_kaggle_flight_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T04:10:37.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kafka_etl_kaggle_flight_dag.py took 0.325 seconds

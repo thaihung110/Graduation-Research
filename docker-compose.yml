@@ -131,10 +131,10 @@ services:
     deploy:
       resources:
         limits:
-          memory: 6g
+          memory: 5g
           cpus: "2.0"
         reservations:
-          memory: 6g
+          memory: 5g
           cpus: "1.5"
   
   middlemanager-2:
@@ -158,10 +158,10 @@ services:
     deploy:
       resources:
         limits:
-          memory: 6g
+          memory: 5g
           cpus: "2.0"
         reservations:
-          memory: 6g
+          memory: 5g
           cpus: "1.5"
 
   router:
